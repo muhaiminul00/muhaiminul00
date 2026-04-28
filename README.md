@@ -9,37 +9,40 @@ I build AI systems that solve problems I've seen with my own eyes —
 not problems I read about in papers.
 
 **VisionAid** came from watching people lose vision during the protests in Bangladesh.
-**GridAid** came from living through the electricity crisis.
-Both are prototypes. Both are real.
+**GridAid** came from living through the electricity crisis my entire life.
+Both are prototypes. Both are real. Both are open source.
 
 ---
 
 ## What I'm Building
 
-### 🔵 VisionAid — AI Assistive Glass for the Visually Impaired
-> 🥇 **Gold Award + Panel's Choice Award · WYSII 2026 (International)** · Top 5 Project Globally
+### VisionAid — AI Assistive Glass for the Visually Impaired
+
+> 🥇 Gold Award + Panel's Choice Award · WYSII 2026 (International) · Top 5 Project Globally
 
 An AI-powered wearable that gives blind and visually impaired people real-time environmental
-awareness — at a cost 10× cheaper than existing alternatives.
+awareness — at ~BDT 9,000–12,000 hardware cost. Commercial alternatives cost 10× more.
 
-**Stack:** `OpenCV` `TensorFlow Lite` `YOLO` `BLIP` `OpenVINO` `Quantization`
-**Capabilities:** Obstacle detection · Face recognition · Scene description · Currency detection · Book reading · Color detection
-**Hardware cost:** ~BDT 9,000–12,000 (vs. BDT 90,000+ alternatives)
-**Mission:** Make assistive AI accessible across Bangladesh and beyond.
+**Stack:** `OpenCV` `TensorFlow Lite` `YOLOv8` `BLIP` `OpenVINO` `Quantization`
 
-→ [View VisionAid Repository](https://github.com/muhaiminul00/VisionAid)
+Capabilities: obstacle detection · face recognition · scene description ·
+currency detection · book reading · color detection — all on-device, no internet required.
+
+→ [VisionAid Repository](https://github.com/muhaiminul00/VisionAid)
 
 ---
 
-### 🟠 GridAid — National Energy Intelligence System
-> 🏅 **46th National Science & Technology Fair — Special 3rd Place (6th Overall Nationally)**
+### GridAid — National Energy Intelligence System
 
-Anomaly detection system targeting recovery of 3,000+ MW of wasted power across Bangladesh's national grid.
+> National Science & Technology Fair — Special 3rd Place (6th Overall Nationally)
 
-**Stack:** `Isolation Forest` `Streamlit` `Folium` `Plotly` `LoRaWAN` `RS485` `TimescaleDB` `ChirpStack`
-**Performance:** F1 Score 0.78 · Inference < 5ms
+Anomaly detection system for Bangladesh's power grid. Targets recovery of 3,000+ MW
+of electricity lost daily to inefficiency — without building new infrastructure.
 
-→ [View GridAid Repository](https://github.com/muhaiminul00/GridAid)
+**Stack:** `Isolation Forest` `Streamlit` `Folium` `LoRaWAN` `RS485` `TimescaleDB` `ChirpStack`
+**Performance:** F1 Score 0.78 · Inference < 5ms · 27% improvement over Z-score baseline
+
+→ [GridAid Repository](https://github.com/muhaiminul00/GridAid) · [Live Demo](https://gridaid.streamlit.app)
 
 ---
 
@@ -47,28 +50,23 @@ Anomaly detection system targeting recovery of 3,000+ MW of wasted power across 
 
 | Award | Level | Year |
 |---|---|---|
-| WYSII — Gold Award + Panel's Choice Award | 🌍 International | 2026 |
-| WYSII — Bronze Award | 🇧🇩 National | 2026 |
-| Innovation World Cup — Honorable Mention + International Qualification | 🇧🇩 National | 2026 |
-| National Science & Technology Fair — Special 3rd Place (6th Overall) | 🇧🇩 National | 2025 |
-| National Science & Technology Fair — District Champion | 🏙️ District | 2025 |
-| International Youth STEM Tournament — Bronze | 🌍 International | 2024 |
-| International Geometry Olympiad Challenge Vol. 3 — Bronze | 🌍 International | 2024 |
-| SSC Board Scholarship — Cumilla Board | 🇧🇩 National | — |
+| WYSII — Gold Award + Panel's Choice Award | International | 2026 |
+| Innovation World Cup — Honorable Mention + International Qualification | National | 2026 |
+| National Science & Technology Fair — Special 3rd Place (6th Overall) | National | 2025 |
+| International Youth STEM Tournament — Bronze | International | 2024 |
+| International Geometry Olympiad Challenge Vol. 3 — Bronze | International | 2024 |
 
 ---
 
-## Current Stack
+## Stack
 
 ```python
 skills = {
-    "AI / ML":    ["TensorFlow Lite", "OpenCV", "YOLO", "BLIP", "OpenVINO",
-                   "Isolation Forest", "scikit-learn"],
-    "Data":       ["TimescaleDB", "Plotly", "Folium", "Streamlit"],
-    "IoT":        ["LoRaWAN", "RS485", "ChirpStack"],
-    "Languages":  ["Python", "HTML", "CSS"],
-    "Learning":   ["Phitron AI/ML (active · 3 hrs/day)",
-                   "Andrew Ng ML Specialization (next)"],
+    "AI / ML":   ["TensorFlow Lite", "OpenCV", "YOLO", "BLIP", "OpenVINO",
+                  "Isolation Forest", "scikit-learn"],
+    "Data":      ["TimescaleDB", "Plotly", "Folium", "Streamlit"],
+    "IoT":       ["LoRaWAN", "RS485", "ChirpStack"],
+    "Learning":  ["Phitron AI/ML — active", "Andrew Ng ML Specialization — next"],
 }
 ```
 
@@ -76,27 +74,22 @@ skills = {
 
 ## Currently
 
-- 🔭 &nbsp;Developing **VisionAid** toward real users in Bangladesh
-- 🚀 &nbsp;Founding CTO at **ZeroManual** — Agentic AI SaaS startup
-- 📖 &nbsp;Deepening ML foundations through structured daily curriculum
-- 🎯 &nbsp;Targeting international CS scholarship — Fall 2027
+- Building **VisionAid** toward real users in Bangladesh
+- Founding CTO at **ZeroManual** — Agentic AI SaaS startup
+- Deepening ML foundations through structured daily curriculum
 
 ---
 
 ## Leadership
 
 **General Secretary — Feni Govt. College Science Club**
-Led 120+ members across 5 wings: Robotics, Programming, Research, Media, Academic.
-Revived the club from near-inactivity. Organized the college's **first-ever Science Olympiad and Science Fest**.
-
-**IT & PR Officer — Leo Club of Feni** *(Lions International)*
-
-**Child Researcher — National Children Task Force, Feni** *(2023–2025)*
+Led 120+ members across 5 wings. Revived the club from near-inactivity.
+Organized the college's first-ever Science Olympiad and Science Fest.
 
 ---
 
-## Let's Connect
+## Connect
 
-- 💼 [LinkedIn — muhaiminul00](https://linkedin.com/in/muhaiminul00)
-- 📧 muhaiminulabedin00@gmail.com
-- 🌐 Blog coming soon
+- LinkedIn: [muhaiminul00](https://linkedin.com/in/muhaiminul00)
+- Email: muhaiminulabedin00@gmail.com
+- Blog: coming soon
